@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets — NEVER commit
+.env
+.env.local
+*.local
+
+# Build output
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# Local-machine Claude Code state — NOT the committed .claude/skills and .claude/commands
+.claude/settings.local.json
+.claude/projects/
+.claude/sessions/
+.claude/history/
+.claude/shell-snapshots/
