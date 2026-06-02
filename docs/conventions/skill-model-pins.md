@@ -35,6 +35,7 @@ Drift between a skill's frontmatter pin and its catalog row is a lint violation.
 | `find-skills` | haiku | Purely mechanical — reads frontmatter fields, ranks keyword overlap, and returns matches; no creative or strategic reasoning required. |
 | `skill-creator` | sonnet | Judgment-bearing — applies naming conventions, selects model tier via decision tree, writes description copy, and enforces the authoring checklist; errors here propagate into every future invocation of the created skill. |
 | `swarm-scaffolder` | sonnet | Judgment-bearing — maps operator input to role taxonomy, chooses Worker granularity per phase, and verifies all 7 conformance checks; structural errors compound across every build the swarm runs. |
+| `summarize-source` | sonnet | Extracting claims from unstructured web content requires bounded judgment — relevance filtering, hedge detection, and accurate paraphrase without fabrication; mechanical Haiku cannot reliably distinguish a stated fact from a speculative claim. |
 
 ---
 
