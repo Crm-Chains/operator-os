@@ -103,6 +103,6 @@ The Writer reads these sections to draft the brief.
 
 ## Related
 
-- [`../PROTOCOL.md`](../PROTOCOL.md) — Worker contract
-- [`../_protocol/handoff-schema.md`](../_protocol/handoff-schema.md)
+- [`../../PROTOCOL.md`](../../PROTOCOL.md) — Worker contract
+- [`../../_protocol/handoff-schema.md`](../../_protocol/handoff-schema.md)
 - [`.claude/skills/summarize-source/SKILL.md`](../../../.claude/skills/summarize-source/SKILL.md)

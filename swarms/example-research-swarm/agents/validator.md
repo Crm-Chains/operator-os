@@ -100,6 +100,6 @@ Report back to the Orchestrator with the overall result and the path to the cont
 
 ## Related
 
-- [`../PROTOCOL.md`](../PROTOCOL.md) — Validator contract
-- [`../_protocol/validation-contract.md`](../_protocol/validation-contract.md) — contract schema
-- [`../_protocol/control-plane-schema.md`](../_protocol/control-plane-schema.md)
+- [`../../PROTOCOL.md`](../../PROTOCOL.md) — Validator contract
+- [`../../_protocol/validation-contract.md`](../../_protocol/validation-contract.md) — contract schema
+- [`../../_protocol/control-plane-schema.md`](../../_protocol/control-plane-schema.md)

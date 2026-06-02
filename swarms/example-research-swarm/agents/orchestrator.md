@@ -151,8 +151,8 @@ Replace `<slug>` with the actual build slug before emitting.
 
 ## Related
 
-- [`../PROTOCOL.md`](../PROTOCOL.md) — canonical protocol
-- [`../_protocol/hitl-block.md`](../_protocol/hitl-block.md) — HITL block format
-- [`../_protocol/control-plane-schema.md`](../_protocol/control-plane-schema.md)
-- [`../_protocol/validation-contract.md`](../_protocol/validation-contract.md)
+- [`../../PROTOCOL.md`](../../PROTOCOL.md) — canonical protocol
+- [`../../_protocol/hitl-block.md`](../../_protocol/hitl-block.md) — HITL block format
+- [`../../_protocol/control-plane-schema.md`](../../_protocol/control-plane-schema.md)
+- [`../../_protocol/validation-contract.md`](../../_protocol/validation-contract.md)
 - [`../role-registry.md`](../role-registry.md) — model assignments

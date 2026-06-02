@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "test": "node --test",
-    "secret-scan": "node tools/secret-scan/scan.mjs"
+    "secret-scan": "node tools/secret-scan/scan.mjs",
+    "verify": "node tools/verify/run.mjs"
   }
 }

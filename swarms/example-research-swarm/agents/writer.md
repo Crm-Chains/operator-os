@@ -101,6 +101,6 @@ Set control-plane status to `HANDOFF PENDING`. Include in the handoff:
 
 ## Related
 
-- [`../PROTOCOL.md`](../PROTOCOL.md) — Worker contract
-- [`../_protocol/handoff-schema.md`](../_protocol/handoff-schema.md)
+- [`../../PROTOCOL.md`](../../PROTOCOL.md) — Worker contract
+- [`../../_protocol/handoff-schema.md`](../../_protocol/handoff-schema.md)
 - [`../validation-contracts/`](../validation-contracts/) — read the active contract before writing

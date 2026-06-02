@@ -100,5 +100,5 @@ state). Workers never communicate peer-to-peer.
 - [`../PROTOCOL.md`](../PROTOCOL.md) — canonical conformance contract
 - [`../_protocol/`](../_protocol/) — schema files
 - [`role-registry.md`](role-registry.md) — model-per-role assignments
-- [`build-index.md`](build-index.md) — control plane (created on first run)
+- `build-index.md` — control plane (created on first run; does not exist until the swarm executes)
 - [`docs/protocols/multi-agent-coordination.md`](../../docs/protocols/multi-agent-coordination.md) — conceptual rationale
