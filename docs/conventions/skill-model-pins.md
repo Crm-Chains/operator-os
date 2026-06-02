@@ -31,6 +31,10 @@ Drift between a skill's frontmatter pin and its catalog row is a lint violation.
 | `cross-linker` | sonnet | Write-heavy with scoring judgment — evaluating semantic relevance, confidence labeling, and deciding inline vs. related-section placement. |
 | `tag-taxonomy` | haiku | Primarily mechanical — alias substitution and tag-limit enforcement are deterministic pattern matching; unknown-tag disposition escalates to the operator, not the model. |
 | `wiki-status` | haiku | Deterministic counting, date comparison, and manifest lookups; all output is factual reporting with no creative or strategic reasoning. |
+| `swarm-conform` | sonnet | Judgment-bearing audit — semantic role-mapping review, contract-before-workers assessment, and schema diff evaluation require bounded reasoning beyond mechanical pattern matching. |
+| `find-skills` | haiku | Purely mechanical — reads frontmatter fields, ranks keyword overlap, and returns matches; no creative or strategic reasoning required. |
+| `skill-creator` | sonnet | Judgment-bearing — applies naming conventions, selects model tier via decision tree, writes description copy, and enforces the authoring checklist; errors here propagate into every future invocation of the created skill. |
+| `swarm-scaffolder` | sonnet | Judgment-bearing — maps operator input to role taxonomy, chooses Worker granularity per phase, and verifies all 7 conformance checks; structural errors compound across every build the swarm runs. |
 
 ---
 
