@@ -29,6 +29,9 @@ Rationale for each pin should fit one sentence. If it does not, the pin is proba
 
 | Command | Model | Rationale |
 |---|---|---|
+| `/onboard` | sonnet | Guided wizard with local judgement per layer; --deep is heavier questions, not heavier synthesis. |
+| `/audit` | sonnet | Pattern-matching with evidence-citing judgement; grading rubric is defined, not open-ended. |
+| `/level-up` | opus | Highest-leverage strategic output — cross-source synthesis, architectural tradeoffs, EAD ordering across compounding gaps. |
 
 ---
 
