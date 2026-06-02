@@ -1,0 +1,16 @@
+# Normalize all text to LF in the repository.
+* text=auto
+
+# Force LF on checkout for scripts and git hooks — they are executed via `sh`
+# (including Git for Windows) and CRLF would break the shebang/interpreter.
+*.sh        text eol=lf
+*.mjs       text eol=lf
+*.js        text eol=lf
+.githooks/* text eol=lf
+
+# Binary assets — never touch line endings.
+*.png  binary
+*.jpg  binary
+*.gif  binary
+*.webp binary
+*.mp4  binary

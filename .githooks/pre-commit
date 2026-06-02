@@ -1,0 +1,9 @@
+#!/bin/sh
+# Block commits containing secrets. Scans staged files only.
+staged=$(git diff --cached --name-only --diff-filter=ACM)
+[ -z "$staged" ] && exit 0
+node tools/secret-scan/scan.mjs $staged || {
+  echo "commit blocked: secret-scan found potential secrets (see above)." >&2
+  echo "if this is a false positive, see tools/secret-scan/README.md." >&2
+  exit 1
+}
